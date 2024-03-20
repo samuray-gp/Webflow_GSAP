@@ -1,12 +1,7 @@
-//const firstName = 'Denis'
-//firstName = 'Sergey'
-//console.log('Hello', firstName)
 
 let firstName = 'Denis'
-firstName = 'Sergey'
-
-console.log('hello', firstName)
-
-var lastName = 'Gurkov'
-lastName = 'Babenko'
-console.log('hello', lastName)
+let lastName = 'Gurkov'
+let currentAge = '47'
+let city = 'live in Samui'
+let hobby = 'black belt aikibudo'
+console.log(firstName, lastName , currentAge, city , hobby)
