@@ -7,7 +7,7 @@
 
 
 
-let screenPrice = 1000
+let screenPrice = 10000
 let percentage = 10
 
 
@@ -54,7 +54,27 @@ if (fullPrice > 50000) {
     console.log('В другой раз повезет');
 }
 
- 
+let allServicePrices;
 
+const getAllServicePrices = function() {
+    return servicePrice1 + servicePrice2
+}
+allServicePrices = getAllServicePrices();
+console.log(allServicePrices, "вызвали функцию с суммой всех доп услуг");
 
+function getFullPrice() {
+   return allServicePrices + screenPrice
+}
+fullPrice = getFullPrice();
 
+const getServicePercentPrices = function () {
+    return fullPrice - servicePercentPrice
+}
+
+servicePercentPrice = getServicePercentPrices();
+
+let newTitleProject = '';
+const getTitle = function () {
+    return titleProject[0].toUpperCase();
+}
+newTitleProject = getTitle();
