@@ -1,4 +1,4 @@
-'use strict'
+
 
 const gameBotFunction = function () {
     function randomGenerate(min, max) {
