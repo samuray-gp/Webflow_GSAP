@@ -1,30 +1,12 @@
+'use strict'
 
-// let x = 11;
+// for (let i = 0; i <= 5; i++) {
+//     console.log(i);
+// }
 
-// if (x > 10) {
-//     console.log('Условие верно');
-// } else {
-//     console.log('Условие не верно');
-// }  
+let num = 0
 
-// let a = 5;
-// let b = '10'
-// let res = a + +b
+for (let i = 10; i > num; i--) {
+    console.log(i);
+ }
 
-// console.log(a.toString());
-
-// console.log(res);
-
-// console.log(typeof a);
-// console.log(typeof b);
-
-// console.log(a + b);
-
-
-// alert('Привет')
-
-let age = +prompt('Укажите ваш возраст') // 15 = 25
-let a = 10
-let res = age + a
-
-console.log(res);
